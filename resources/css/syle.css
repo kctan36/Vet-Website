@@ -1,0 +1,171 @@
+body {
+    font-family: sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: #5316ce;
+}
+
+header {
+    background-color: #5316ce;
+    width: 98.9vw;
+    position: sticky;
+    top: 0;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+div.flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+    height: inherit; 
+    width: 70%
+   
+}
+
+div.flex img {
+    height: 50px;
+}
+
+div.flex ul {
+    align-self: center;
+    padding: 0;
+    margin: 0;
+}
+div.flex ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+    border-left: 2px solid #ffffff;
+    font-size: 12px;
+}
+
+div.flex ul li:first-child {
+    border-left: none;
+}
+
+li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+main {
+    display: grid;
+    grid-auto-rows: auto;
+    justify-items: center;
+    width: 98.9vw;
+}
+
+section {
+    width: 70vw; 
+}
+
+#hero {
+    background-image: url(../images/purple-dog.png);
+    background-size: contain;
+    height: 62vw;
+    width: 98.9vw;
+}
+
+#heroShade {
+    background-image: linear-gradient(to right, rgba(255,255,255,0.5), rgba(83,22,206,0.5));
+    background-size: contain;
+    height: inherit;
+    width: inherit;
+    display: inline-flex;
+    justify-content: center;
+}
+
+#heroShade h1 {
+    align-self: center;
+    text-align: center;  
+    color: white;
+    font-weight: normal;    
+    line-height: 4em;
+}
+
+#heroShade h1::first-line {
+    font-size: 7vw;
+    font-weight: bold;
+}
+
+li {
+    list-style-type:square;
+    
+}
+
+.why ul {
+    padding: 0 30px;
+    line-height: 2em;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+section h1:first-child {
+    font-size: 35px;
+    border-bottom: 2px solid #5316ce;
+    padding: 10px 0;
+}
+
+.vetContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+figure {
+    border: 3px solid #5316ce;
+    padding: 20px;
+    text-align: center; 
+}
+
+figure img {
+    width: 200px;
+}
+
+figure figcaption h1 {
+    font-weight: bold;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    text-align: center; 
+}
+
+figure figcaption p {
+    
+    padding-top: 5px;
+    text-align: left;
+    font-size: 15px;
+}
+
+h3 {
+    margin: 5px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+figure h3:last-of-type {
+    border-bottom: 1px solid #5316ce;
+    padding: 10px 0;
+}
+
+footer {
+    color: white;
+    background-color: #5316ce;
+    width: 98.9vw;
+    display: grid;
+    justify-content: center;
+    
+}
+
+footer p {
+    width: 70vw;
+    line-height: 2em;
+    font-style: none;
+    padding: 20px 0;    
+}
+
